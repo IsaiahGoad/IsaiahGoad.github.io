@@ -7,6 +7,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <!-- Header -->
   <header>
     <h1>Isaiah Goad</h1>
     <nav>
@@ -26,9 +28,9 @@
     <p>
       Hello everyone, my name is Isaiah Goad, and I love programming and building projects. 
       I specialize in Python, C, C++, and MATLAB. 
-      In addition to software development, I enjoy working on projects in machine learning, reinforcement learning (RL), and other AI technologies.
-      I'm passionate about pushing the boundaries of technology by blending hardware and software to create innovative solutions. 
-      I created this Portfolio with HTML, and the full code is listed on my GitHub for review or comments. 
+      In addition to software development, I enjoy working on machine learning,
+      reinforcement learning (RL), and other AI technologies.
+      I created this portfolio with HTML, and the full code is listed on my GitHub.  
       Thank you very much for stopping by!
     </p>
   </section>
@@ -37,67 +39,112 @@
   <section id="projects">
     <h2>My Projects</h2>
 
+    <!-- ============================= -->
+    <!-- BIRDWATCH SECTION ADDED HERE -->
+    <!-- ============================= -->
+
+    <div class="birdwatch-section">
+
+      <img src="images/birdwatch-banner.png" class="birdwatch-banner" alt="BirdWatch Banner">
+
+      <div class="birdwatch-text">
+        <h2>Redefining AI & IT: BirdWatch</h2>
+        <p>
+          While BirdWatch can be expanded for multiple use cases, this project focuses on developing it as
+          an on-device AI security and IT system for Dell AI laptops. The application leverages the Neural
+          Processing Unit (NPU) to run pre-trained large language models (LLMs) locally for real-time
+          network monitoring and analysis.
+        </p>
+        <p>
+          BirdWatch inspects network packets entirely on-device, using LLM reasoning to summarize traffic
+          behavior and detect anomalies while maintaining privacy and responsiveness. BirdWatch frees the
+          CPU and GPU, delivering efficient, intelligent, and private AI computing without relying on the cloud.
+        </p>
+        <p><strong>Sponsored by: Dell Technologies</strong></p>
+      </div>
+
+      <div class="birdwatch-video">
+        <iframe width="100%" height="315"
+          src="https://www.youtube.com/embed/yYVBOaCuPA0"
+          title="BirdWatch Tech Symposium 2025"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+
+    <!-- ============================= -->
+    <!-- END BIRDWATCH SECTION -->
+    <!-- ============================= -->
+
     <div class="project">
       <h3>Collection of Circuits Built</h3>
       <p>
-        This collection of circuits from my course demonstrates my knowledge of lab equipment such as multimeters, power supplies, function generators, oscilloscopes, probes, and voltmeters for low-level testing.
+        This collection of circuits from my course demonstrates my knowledge of multimeters, power supplies,
+        function generators, oscilloscopes, probes, and low-level testing.
       </p>
-      <a href="https://docs.google.com/document/d/1ZHgJIbvGjjFyrVLJ-QqO1zugpnMpkBwSfMsEcap4zOY/edit?tab=t.0" target="_blank">View Project on Word Document</a>
+      <a href="https://docs.google.com/document/d/1ZHgJIbvGjjFyrVLJ-QqO1zugpnMpkBwSfMsEcap4zOY/edit?tab=t.0" 
+      target="_blank">View Project</a>
     </div>
-    
+
     <div class="project">
       <h3>Reinforcement Learning Project</h3>
       <p>
-        This project demonstrates the effectiveness of DQN on different environments and explores how hyperparameters like learning rate impact training outcomes. The trajectory analysis provides insights into the training process and helps fine-tune the DQN algorithm for better performance.
+        A DQN experiment across multiple environments with analysis of hyperparameters and training trajectories.
       </p>
-      <a href="https://github.com/IsaiahGoad/Acrobot-v1-project" target="_blank">View Project on GitHub</a>
+      <a href="https://github.com/IsaiahGoad/Acrobot-v1-project" target="_blank">View on GitHub</a>
     </div>
 
     <div class="project">
       <h3>Final Paper on Reinforcement Learning</h3>
       <p>
-        My final paper on reinforcement learning, providing an in-depth analysis of fundamentals and tests across Acrobot and CartPole environments.
+        In-depth analysis and algorithm comparison across Acrobot and CartPole environments.
       </p>
-      <a href="https://utsacloud-my.sharepoint.com/:w:/g/personal/isaiah_goad_my_utsa_edu/EXJHdSpDH1BOokR886odxZcBf5gj6v_riT0zl2RSDU0GRg?e=YtBJ36" target="_blank">View Paper</a>
+      <a href="https://utsacloud-my.sharepoint.com/:w:/g/personal/isaiah_goad_my_utsa_edu/EXJHdSpDH1BOokR886odxZcBf5gj6v_riT0zl2RSDU0GRg?e=YtBJ36"
+      target="_blank">View Paper</a>
     </div>
 
     <div class="project">
       <h3>New Research Paper</h3>
       <p>
-        My latest research paper on using HPC clusters, (GPU Nodes) to optmizes, fine tune, and quantize Small Language Models & Large Language Models
+        A research paper on using HPC GPU clusters to optimize, quantize, and fine-tune LLMs and SLMs.
       </p>
-      <a href="https://utsacloud-my.sharepoint.com/personal/isaiah_goad_my_utsa_edu/_layouts/15/doc.aspx?sourcedoc={4be7d825-b911-4e57-a5f8-2a9287a9002b}&action=edit" target="_blank">View New Paper</a>
+      <a href="https://utsacloud-my.sharepoint.com/personal/isaiah_goad_my_utsa_edu/_layouts/15/doc.aspx?sourcedoc={4be7d825-b911-4e57-a5f8-2a9287a9002b}&action=edit"
+      target="_blank">View New Paper</a>
     </div>
 
     <div class="project">
       <h3>Substation Location via Longitude & Latitude (Python)</h3>
-      <p>
-        A Python script created to connect substation locations using longitude and latitude with Pandas and export the results to a CSV file.
-      </p>
-      <a href="https://github.com/IsaiahGoad/Substation_Py" target="_blank">View Project on GitHub</a>
+      <p>A Python script mapping substation locations based on GPS coordinates.</p>
+      <a href="https://github.com/IsaiahGoad/Substation_Py" target="_blank">View on GitHub</a>
     </div>
 
     <div class="project">
       <h3>NOR/NOR Network Project</h3>
       <p>
-        Displays the capital letters M, N, O, P, and Q using a 17-segment hex display when inputs are 0–4. The final design implements a NOR/NOR two-level network.
+        Displays letters M–Q on a 17-segment hex display using a two-level NOR network.
       </p>
-      <a href="https://utsacloud-my.sharepoint.com/:p:/g/personal/isaiah_goad_my_utsa_edu/EaK64go0D39EtK9dEX3xEYABXajuQP5bRVX9EYBvKe8azA" target="_blank">View Project on Word</a>
+      <a href="https://utsacloud-my.sharepoint.com/:p:/g/personal/isaiah_goad_my_utsa_edu/EaK64go0D39EtK9dEX3xEYABXajuQP5bRVX9EYBvKe8azA"
+      target="_blank">View Project</a>
     </div>
+
   </section>
 
   <!-- Contact -->
   <section id="contact">
     <h2>Contact Me</h2>
-    <p>Email me at <a href="mailto:isaiahgoad273@gmail.com">isaiahgoad273@gmail.com</a>.</p>
-    <p>Connect with me on <a href="https://www.linkedin.com/in/Isaiah-Goad" target="_blank">LinkedIn</a> or check out my projects on <a href="https://github.com/IsaiahGoad" target="_blank">GitHub</a>.</p>
+    <p>Email: <a href="mailto:isaiahgoad273@gmail.com">isaiahgoad273@gmail.com</a></p>
+    <p>
+      Connect on <a href="https://www.linkedin.com/in/Isaiah-Goad" target="_blank">LinkedIn</a> |
+      Browse my work on <a href="https://github.com/IsaiahGoad" target="_blank">GitHub</a>
+    </p>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>&copy; 2024 Isaiah Goad - All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
-
-
